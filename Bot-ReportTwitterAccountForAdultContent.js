@@ -46,5 +46,5 @@
         var iframe = document.querySelector('iframe');
         var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
         innerDoc.querySelector('button[class="submit-btn"]').click();
-    }, 4500);
+    }, 5500);
 })();

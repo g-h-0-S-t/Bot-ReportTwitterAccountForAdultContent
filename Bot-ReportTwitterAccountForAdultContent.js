@@ -36,7 +36,7 @@
         var iframe = document.querySelector('iframe');
         var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
         innerDoc.querySelector('button[value="SensitiveMediaOption"]').click();
-    }, 2500);
+    }, 1500);
     setTimeout(function () {
         var iframe = document.querySelector('iframe');
         var innerDoc = iframe.contentDocument || iframe.contentWindow.document;

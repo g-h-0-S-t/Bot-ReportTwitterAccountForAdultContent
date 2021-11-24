@@ -36,15 +36,15 @@
         var iframe = document.querySelector('iframe');
         var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
         innerDoc.querySelector('button[value="SensitiveMediaOption"]').click();
-    }, 2000);
+    }, 2500);
     setTimeout(function () {
         var iframe = document.querySelector('iframe');
         var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
         innerDoc.querySelector('button[value="AdultOption"]').click();
-    }, 3000);
+    }, 3500);
     setTimeout(function () {
         var iframe = document.querySelector('iframe');
         var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
         innerDoc.querySelector('button[class="submit-btn"]').click();
-    }, 4000);
+    }, 4500);
 })();
